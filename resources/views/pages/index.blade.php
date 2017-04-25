@@ -32,9 +32,7 @@
 	                "/img/full-spoon-logo.svg" width="682">
 	        <p class="mrgn40-btm"><img alt="Full Spoon" src="/img/badge-food-drinks-sm.svg"> </p>
 	        <div class="intro-heading"> Delicious Food & Drinks </div>
-	        <p class="mrgn80-top"><a class=
-	                    "btn btn-lg btn-outline" href=
-	                    "menu.html">Termékeink</a> </p>
+	        <p class="mrgn80-top"><a class= "btn btn-lg btn-outline" href="{{ route('pages.products')}}">Termékek</a> </p>
 	      </div>
 	    </div>
 	    <div class="item"> 
@@ -45,9 +43,7 @@
 	                "/img/full-spoon-logo.svg" width="682">
 	        <p class="mrgn40-btm"><img alt="Full Spoon" src="/img/badge-music-art-sm.svg"> </p>
 	        <div class="intro-heading"> Local & Global Music Events </div>
-	        <p class="mrgn80-top"><a class=
-	                    "btn btn-lg btn-outline" href=
-	                    "events.html">Have a Look</a> </p>
+	        <p class="mrgn80-top"><a class= "btn btn-lg btn-outline" href="{{ route('pages.contact')}}">Kapcsolat</a> </p>
 	      </div>
 	    </div>
 	  </div>
