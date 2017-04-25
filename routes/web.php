@@ -1,16 +1,10 @@
 <?php
+//Pages
+Route::get('/', ['as' =>'pages.index', 'uses' => 'PagesController@index']);
+Route::get('cegunkrol', ['as' =>'pages.about', 'uses' => 'PagesController@about']);
+Route::get('termekek', ['as' =>'pages.products', 'uses' => 'PagesController@products']);
+Route::get('kapcsolat', ['as' =>'pages.contact', 'uses' => 'PagesController@contact']);
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-Route::get('/', function () {
-    return view('welcome');
-});
+//Auth
+// Auth::routes();
+// Route::get('/home', 'HomeController@index');
