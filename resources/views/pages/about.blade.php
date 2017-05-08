@@ -18,7 +18,7 @@
   <div class="container"> 
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">About <span class= "orange-accent">us</span></h2>
+        <h2 class="section-heading">Magunkról <span class= "orange-accent">!</span></h2>
       </div>
     </div>
     
@@ -32,18 +32,20 @@
     
     <div class="row">
       <div class="col-md-12">
-        <p>Cégünk 12 éve működik stabilan. A cég 100%-ban Magyar tulajdonú társaság, mely családi vállalkozásként működik, közel húsz alkalmazottnak adva biztos megélhetést.</p> 
-        <p class="mrgn20-top">Üzletpolitikánk fő ismerve: folyamatos megújulás, magas színvonalas munka, valamint minőségi szolgáltatást nyújtani a vevőkörünknek és megrendelőinknek. Ennek érdekében a teljes gépparkunkat az elmúlt év Decemberében lecseréltük.</p>
-        <p class="mrgn20-top">A gyártást eneritakarékos és a legmodernebb technológia követelményeknek megfelelő sütőipari kemencében végezzük.</p>
-        <p class="mrgn20-top">A  partner kapcsolat megőrzése érdekében igényes, céltudatos munkára törekszünk. Cégünkhöz folyamatosan érkező vásárlói visszajelzések nagyfokú elégedettséget mutatnak termékeikkel. Innovatív módon működünk!!</p>
-        <p class="mrgn20-top">Fő tevékenységünk a friss és csomagolt sutőipari termékek, cukrász sütemények, diabetikus termékek gyártása, értékesítése viszonteladói hálózatban.
-        Egyik vezető termékünk az Európai Unióban a megőrzendő gasztronómiai értékek közé sorolható a hagyományos technológiával gyártott kenyér, mely rendkívül népszerű a lakosság körében.</p>
+        <p>
+          <strong>Cégünk</strong> 12 éve működik stabilan. A cég 100%-ban magyar tulajdonú társaság, mely családi vállalkozásként működik, közel húsz alkalmazottnak adva ezzel biztos megélhetést.
+        </p> 
+        <p class="mrgn20-top">
+          <strong>Üzletpolitikánk fő ismérve</strong>: folyamatos megújulás, magas színvonalú munka, valamint minőségi szolgáltatást nyújtani vevőinknek és megrendelőinknek. Ennek érdekében a teljes gépparkunkat 2016. decemberében lecseréltük. A gyártást energiatakarékos és a legmodernebb technológia követelményeknek megfelelő sütőipari kemencékben végezzük. A partnerkapcsolat megőrzése érdekében igényes, céltudatos munkára törekszünk. Cégünkhöz folyamatosan érkező vásárlói visszajelzések nagyfokú elégedettséget mutatnak. Innovatív módon működünk.
+        </p>
+        <p class="mrgn20-top"><strong>Fő tevékenységünk</strong>: friss és csomagolt sütőipari termékek, cukrász sütemények, diabetikus termékek gyártása, értékesítése viszonteladói hálózatban.</p>
+        <p class="mrgn20-top">Egyik vezető termékünk az Európai Unióban a megőrzendő gasztronómiai értékek közé sorolható hagyományos technológiával gyártott kenyér.</p>
         <p class="mrgn20-top">Bízva a közös együttműködés lehetőségében várjuk szíves visszajelzését! </p>
       </div>
     </div>
   </div>
 </section>
-<section id="testimonials">
+{{-- <section id="testimonials">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center"> 
@@ -74,7 +76,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 <footer>
   <div class="container">
     <div class="row">
