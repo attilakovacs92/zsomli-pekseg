@@ -16,7 +16,7 @@
 	      <div class="row">
 		      <div class="carousel-caption"> 
 		      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src="/img/zsomli.png" width="682">
-		        <p class="address" style="margin-top: 50px;">6000 Kecskemét,<br>
+		        <p class="address">6000 Kecskemét,<br>
 		          Külső-Szegedi út 136-16.<br>
 		          </p>
 		      </div>
@@ -27,7 +27,7 @@
 	      <div class="fill" style="background-image: url(/img/slider_2.png);"></div>
 	      <div class="carousel-caption"> 
 	      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src= "/img/zsomli.png" width="682">
-	        <p class="mrgn80-top"  style="margin-top: 150px;"><a class= "btn btn-lg btn-outline" href="{{ route('pages.products')}}">Termékek</a> </p>
+	        <p class="mrgn80-top"><a class= "btn btn-lg btn-outline" href="{{ route('pages.products')}}">Termékek</a> </p>
 	      </div>
 	    </div>
 	    <div class="item"> 
@@ -35,7 +35,7 @@
 	      <div class="fill" style="background-image: url(/img/slider_3.png);"></div>
 	      <div class="carousel-caption"> 
 	      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src= "/img/zsomli.png" width="682">
-	        <p class="mrgn80-top"  style="margin-top: 150px;"><a class= "btn btn-lg btn-outline" href="{{ route('pages.contact')}}">Kapcsolat</a> </p>
+	        <p class="mrgn80-top"><a class= "btn btn-lg btn-outline" href="{{ route('pages.contact')}}">Kapcsolat</a> </p>
 	      </div>
 	    </div>
 	  </div>
