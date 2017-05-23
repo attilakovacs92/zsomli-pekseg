@@ -3,13 +3,11 @@
 <link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="/css/owl.theme.css">
 
-<header id="aboutus" class="opacity">
+<header id="about" class="opacity" style="background-image: url(../img/headers/about-header.png);  opacity: 1.0;">
   <div class="container"> 
     <div class="intro-text-sm">
 		<div class="intro-lead-in"> 
-			<img alt="Full Spoon" class="img-responsive center-block" height="80" src="/img/full-spoon-logo.svg" width="450">
-			<p><img alt="Full Spoon" src="/img/bits/cake.svg"> </p>
-			<div class="intro-heading"> Muffins & Cakes Café </div>
+			<img alt="Full Spoon" class="img-responsive center-block" height="80" src="/img/zsomli.png" width="450" style="padding-bottom: 50px;">
 		</div>
 	</div>
   </div>

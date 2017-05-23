@@ -1,11 +1,10 @@
 @extends('layouts.app')
 @section('content')
-<header id="servicesbg" class="opacity">
+<header id="servicesbg" class="opacity" style="background-image: url(../img/headers/products-header.png); opacity: 1.0;">
   <div class="container"> 
     <div class="intro-text-sm">
-      <div class="intro-lead-in"> <img alt="Full Spoon" class="img-responsive center-block" height="80" src="img/full-spoon-logo.svg" width="450">
-        <p><img alt="Full Spoon" src="img/bits/cake.svg"> </p>
-        <div class="intro-heading"> Muffins & Cakes Café </div>
+      <div class="intro-lead-in"> 
+        <img alt="Full Spoon" class="img-responsive center-block" height="80" src="/img/zsomli.png" width="450" style="padding-bottom: 50px;">
       </div>
     </div>
   </div>
@@ -16,8 +15,7 @@
   <div class="container"> 
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Our <span class="orange-accent">Services</span></h2>
-        <h3 class="section-subheading">We can make your party really delicious.</h3>
+        <h2 class="section-heading">Termékeink<span class="orange-accent">!</span></h2>
       </div>
     </div>
     
@@ -48,79 +46,39 @@
     
     <div class="row"> 
       <div class="col-sm-4 menu-item text-center">
-        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal1">
-          <div class="menu-hover">
+        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal1" style="cursor:no-drop">
+          {{-- <div class="menu-hover">
             <div class="menu-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-          </div>
+          </div> --}}
           <img alt="Coctails and Shots" class="mrgn20-top" src="img/bits/pretzel.svg">
           <div class="menu-caption">
-            <h4>Coctails and Shots</h4>
+            <h4>Friss és csomagolt sütőipari termékek</h4>
           </div>
           </a> </div>
       </div>
-      
       <div class="col-sm-4 menu-item text-center">
-        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal2">
-          <div class="menu-hover">
+        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal3" style="cursor:no-drop">
+          {{-- <div class="menu-hover">
             <div class="menu-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-          </div>
-          <img alt="Coffee & Tea" class="mrgn20-top" src="img/bits/cappuccino.svg">
-          <div class="menu-caption">
-            <h4>Coffee & Tea</h4>
-          </div>
-          </a> </div>
-      </div>
-      
-      <div class="col-sm-4 menu-item text-center">
-        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal3">
-          <div class="menu-hover">
-            <div class="menu-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-          </div>
+          </div> --}}
           <img alt="Special cupcakes & Muffins" class="mrgn20-top" src="img/bits/cupcake.svg">
           <div class="menu-caption">
-            <h4>Special cupcakes & Muffins</h4>
-          </div>
-          </a> </div>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-sm-4 menu-item text-center">
-        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal4">
-          <div class="menu-hover">
-            <div class="menu-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-          </div>
-          <img alt="Fruit salads & Drinks" class="mrgn20-top" src="img/bits/forest-fruit.svg">
-          <div class="menu-caption">
-            <h4>Fruit salads & Drinks</h4>
+            <h4>Cukrász sütemények</h4>
           </div>
           </a> </div>
       </div>
       
       <div class="col-sm-4 menu-item text-center">
-        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal5">
-          <div class="menu-hover">
+        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal6" style="cursor:no-drop">
+         {{--  <div class="menu-hover">
             <div class="menu-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-          </div>
-          <img alt="Salty Nibbles" class="mrgn20-top" src="img/bits/pretzel.svg">
-          <div class="menu-caption">
-            <h4>Salty Nibbles</h4>
-          </div>
-          </a> </div>
-      </div>
-      
-      <div class="col-sm-4 menu-item text-center">
-        <div class="bg-darkest-gray"> <a class="menu-link" data-toggle="modal" href="#menuModal6">
-          <div class="menu-hover">
-            <div class="menu-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
-          </div>
+          </div> --}}
           <img alt="Custom menus" class="mrgn20-top" src="img/bits/pot.svg">
           <div class="menu-caption">
-            <h4>Custom menus</h4>
+            <h4>Diabetikus termékek</h4>
           </div>
           </a> </div>
       </div>
-    </div>
   </div>
 </section>
 

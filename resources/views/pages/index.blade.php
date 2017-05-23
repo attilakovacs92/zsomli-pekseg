@@ -12,38 +12,28 @@
 	  <div class="carousel-inner">
 	    <div class="item active"> 
 	      <!-- Set the first background image using inline CSS below. -->
-	      <div class="fill" style="background-image: url(/img/headers/aboutus-header.jpg);"></div>
-	      <div class="carousel-caption"> <img alt="Full Spoon" class=
-	                "img-responsive center-block" height="123" src=
-	                "/img/full-spoon-logo.svg" width="682">
-	        <p class="mrgn40-btm"><img alt="Full Spoon" src=
-	                "/img/bits/cake.svg"> </p>
-	        <div class="intro-heading"> Muffins & Cakes Café </div>
-	        <p class="address">6000 Kecskemét,<br>
+	      <div class="fill img-responsive" style="background-image: url(/img/slider-1.png);"></div>
+	      <div class="carousel-caption"> 
+	      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src="/img/zsomli.png" width="682">
+	        <p class="address" style="margin-top: 100px;">6000 Kecskemét,<br>
 	          Külső-Szegedi út 136-16.<br>
 	          </p>
 	      </div>
 	    </div>
 	    <div class="item"> 
 	      <!-- Set the second background image using inline CSS below. -->
-	      <div class="fill" style="background-image: url(/img/headers/services-header.jpg);"></div>
-	      <div class="carousel-caption"> <img alt="Full Spoon" class=
-	                "img-responsive center-block" height="123" src=
-	                "/img/full-spoon-logo.svg" width="682">
-	        <p class="mrgn40-btm"><img alt="Full Spoon" src="/img/badge-food-drinks-sm.svg"> </p>
-	        <div class="intro-heading"> Delicious Food & Drinks </div>
-	        <p class="mrgn80-top"><a class= "btn btn-lg btn-outline" href="{{ route('pages.products')}}">Termékek</a> </p>
+	      <div class="fill" style="background-image: url(/img/slider-2.png);"></div>
+	      <div class="carousel-caption"> 
+	      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src= "/img/zsomli.png" width="682">
+	        <p class="mrgn80-top"  style="margin-top: 250px;"><a class= "btn btn-lg btn-outline" href="{{ route('pages.products')}}">Termékek</a> </p>
 	      </div>
 	    </div>
 	    <div class="item"> 
 	      <!-- Set the third background image using inline CSS below. -->
-	      <div class="fill" style="background-image: url(/img/headers/contact-header.jpg);"></div>
-	      <div class="carousel-caption"> <img alt="Full Spoon" class=
-	                "img-responsive center-block" height="123" src=
-	                "/img/full-spoon-logo.svg" width="682">
-	        <p class="mrgn40-btm"><img alt="Full Spoon" src="/img/badge-music-art-sm.svg"> </p>
-	        <div class="intro-heading"> Local & Global Music Events </div>
-	        <p class="mrgn80-top"><a class= "btn btn-lg btn-outline" href="{{ route('pages.contact')}}">Kapcsolat</a> </p>
+	      <div class="fill" style="background-image: url(/img/slider3.png);"></div>
+	      <div class="carousel-caption"> 
+	      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src= "/img/zsomli.png" width="682">
+	        <p class="mrgn80-top"  style="margin-top: 250px;"><a class= "btn btn-lg btn-outline" href="{{ route('pages.contact')}}">Kapcsolat</a> </p>
 	      </div>
 	    </div>
 	  </div>

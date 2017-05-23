@@ -1,12 +1,10 @@
 @extends('layouts.app')
 @section('content')
-<header id="contactbg" class="opacity">
+<header id="contactbg" class="opacity" style="background-image: url(../img/headers/contact-header.png); opacity: 1.0;">
   <div class="container"> 
     <div class="intro-text-sm">
 		<div class="intro-lead-in"> 
-			<img alt="Full Spoon" class="img-responsive center-block" height="80" src="img/full-spoon-logo.svg" width="450">
-			<p><img alt="Full Spoon" src="/img/bits/cake.svg"> </p>
-			<div class="intro-heading"> Muffins & Cakes Café </div>
+			<img alt="Full Spoon" class="img-responsive center-block" height="80" src="/img/zsomli.png" width="450" style="padding-bottom: 50px;">
 		</div>
     </div>
   </div>
@@ -85,19 +83,10 @@
                             placeholder="Telefonszám" required type="tel">
             <p class="help-block text-danger"> </p>
           </div>
-          <div class="form-group">
-            <select class="form-control">
-              <option> How we can help you? </option>
-              <option> I would like a sample menu meeting </option>
-              <option> Please, organize my event </option>
-              <option> Reserve a table </option>
-            </select>
-            <p class="help-block text-danger"> </p>
-          </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <textarea class="form-control"
+            <textarea style="height: 223px;" class="form-control"
                             data-validation-required-message=
                             "Please enter a message." id="message" name=
                             "message" placeholder=
