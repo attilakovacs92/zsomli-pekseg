@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<header id="servicesbg" class="opacity" style="background-image: url(../img/headers/products-header.png); opacity: 1.0;">
+<header id="servicesbg" class="opacity" style="background-image: url(../img/headers/products_header.png); opacity: 1.0;">
   <div class="container"> 
     <div class="intro-text-sm">
       <div class="intro-lead-in"> 

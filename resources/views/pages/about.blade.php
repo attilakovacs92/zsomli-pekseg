@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="/css/owl.theme.css">
 
-<header id="about" class="opacity" style="background-image: url(../img/headers/about-header.png);  opacity: 1.0;">
+<header id="about" class="opacity" style="background-image: url(../img/headers/about_header.png);  opacity: 1.0;">
   <div class="container"> 
     <div class="intro-text-sm">
 		<div class="intro-lead-in"> 

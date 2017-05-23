@@ -12,7 +12,7 @@
 	  <div class="carousel-inner">
 	    <div class="item active"> 
 	      <!-- Set the first background image using inline CSS below. -->
-	      <div class="fill img-responsive" style="background-image: url(/img/slider-1.png);"></div>
+	      <div class="fill img-responsive" style="background-image: url(/img/slider_1.png);"></div>
 	      <div class="carousel-caption"> 
 	      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src="/img/zsomli.png" width="682">
 	        <p class="address" style="margin-top: 100px;">6000 Kecskemét,<br>
@@ -22,7 +22,7 @@
 	    </div>
 	    <div class="item"> 
 	      <!-- Set the second background image using inline CSS below. -->
-	      <div class="fill" style="background-image: url(/img/slider-2.png);"></div>
+	      <div class="fill" style="background-image: url(/img/slider_2.png);"></div>
 	      <div class="carousel-caption"> 
 	      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src= "/img/zsomli.png" width="682">
 	        <p class="mrgn80-top"  style="margin-top: 250px;"><a class= "btn btn-lg btn-outline" href="{{ route('pages.products')}}">Termékek</a> </p>
@@ -30,7 +30,7 @@
 	    </div>
 	    <div class="item"> 
 	      <!-- Set the third background image using inline CSS below. -->
-	      <div class="fill" style="background-image: url(/img/slider3.png);"></div>
+	      <div class="fill" style="background-image: url(/img/slider_3.png);"></div>
 	      <div class="carousel-caption"> 
 	      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src= "/img/zsomli.png" width="682">
 	        <p class="mrgn80-top"  style="margin-top: 250px;"><a class= "btn btn-lg btn-outline" href="{{ route('pages.contact')}}">Kapcsolat</a> </p>
