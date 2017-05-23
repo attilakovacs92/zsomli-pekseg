@@ -29,18 +29,7 @@
     
     <div class="row">
       <div class="col-lg-12 mrgn20-btm">
-        <p>We can prepare custom cake and muffin menu for every
-          ocassion. For birthday parties, we can create custom
-          looking cupcakes to reflect the personality of the person
-          celebrating. Sweet or sour - we can take care for all your
-          guests.</p>
-        <p class="mrgn20-top">We have a special drinks menu for
-          occassions that require alcoholic drinks. We can prepare a
-          summer sangria coctails or mohitos. Strawberry lemonade or
-          cherry vodka shots.</p>
-        <p class="mrgn20-top">If you want to try a sample menu,
-          give us a shout and we will arrange a sample tasting
-          meeting.</p>
+        <p>Feltöltés alatt</p>
       </div>
     </div>
     
