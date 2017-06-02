@@ -21,7 +21,7 @@
           Külső-Szegedi út 136-16.
         </p>
         <p>Telefon:<br> <a href="tel:+3676327291">+36 (76) 327 291</a></p>
-        <p>Email: <br><a href="mailto:proba@proba.hu">proba@proba.hu</a></p>
+        <p>Email: <br><a href="mailto:zita0821@freemail.hu">zita0821@freemail.hu</a></p>
         {{-- <ul class="list-inline social-buttons">
           <li> <a class="fa fa-twitter" href="https://www.facebook.com/designify.me"></a> </li>
           <li> <a class="fa fa-facebook" href="https://www.facebook.com/designify.me"></a> </li>
@@ -58,51 +58,35 @@
       </div>
     </div>
     
-    <form id="contactForm" name="sentMessage" novalidate>
+    {!! Form::open(['route' => 'contact.mail']) !!}
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <input class="form-control"
-                            data-validation-required-message=
-                            "Please enter your name." id="name" placeholder=
-                            "Név" required type="text">
+            {{ Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Név', 'type' => 'text']) }}
             <p class="help-block text-danger"> </p>
           </div>
           <div class="form-group">
-            <input class="form-control"
-                            data-validation-required-message=
-                            "Please enter your email address." id="email"
-                            placeholder="Email" required type=
-                            "email">
+            {{ Form::text('email', null, ['class' => 'form-control', 'placeholder' => 'Email', 'type' => 'email']) }}
             <p class="help-block text-danger"> </p>
           </div>
           <div class="form-group">
-            <input class="form-control"
-                            data-validation-required-message=
-                            "Please enter your phone number." id="phone"
-                            placeholder="Telefonszám" required type="tel">
+            {{ Form::text('phone', null, ['class' => 'form-control', 'placeholder' => 'Telefonszám', 'type' => 'tel']) }}
             <p class="help-block text-danger"> </p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <textarea style="height: 223px;" class="form-control"
-                            data-validation-required-message=
-                            "Please enter a message." id="message" name=
-                            "message" placeholder=
-                            "Tell us a little bit of your event or evening with us *"
-                            required="">
-			</textarea>
+            {{ Form::textarea('message', null, ['class' => 'form-control', 'style' => 'height: 223px', 'placeholder' => 'Üzenet']) }}
             <p class="help-block text-danger"> </p>
           </div>
         </div>
         <div class="clearfix"> </div>
         <div class="col-lg-12 text-left">
           <div id="success"> </div>
-          <button class="btn btn-contact" type="submit">Küldés</button>
+          {{ Form::submit('Küldés', ['class' => 'btn btn-contact']) }}
         </div>
       </div>
-    </form>
+    {!! Form::close() !!}
   </div>
 </section>
 <footer>
