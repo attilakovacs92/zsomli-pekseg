@@ -16,7 +16,7 @@
 	      <div class="row">
 		      <div class="carousel-caption"> 
 		      <img alt="Full Spoon" class= "img-responsive center-block" height="123" src="/img/zsomli.png" width="682">
-		        <p class="address">6000 Kecskemét,<br>
+		        <p class="address">6000 Kecskemét,hello<br>
 		          Külső-Szegedi út 136-16.<br>
 		          </p>
 		      </div>
