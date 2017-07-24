@@ -42,6 +42,10 @@
       </div>
     </div>
     <hr>
+    <div class="col-md-3">
+       <img src="/img/palyazat.png" alt="" class="img-responsive">
+    </div>
+    <div class="col-md-9">
     <p>A Zsömli Sütöde Gyártó és Kereskedelmi Kft. a GINOP-1.2.2-15-2015-00584 azonosító számú pályázat keretén belül az alábbi eszközöket szerezte be:</p>
     <ul>
        <li>1 db Real Forni gyártm. VapoReal gőzcsöves etázskemence</li>  
@@ -51,6 +55,7 @@
     <p>A fentiekben felsorolt eszközök beszerzése és üzembe helyezése megvalósult.  Ezen eszközök a termelési folyamatban jelentős szerepet töltenek be, hozzájárulnak a meglévő feldolgozási, termelési technológia hozzáadottérték növekedést eredményező módon való fejlesztéséhez. Az eszközök beszerzése által a termelés nagyobb volumenű lett, a vállalkozás vevőköre kiszélesedett, piaci pozíciója megerősödött. </p>
     <p>A támogatás mértéke:&nbsp; 50%</p>
    <p>A projekt befejezés dátuma 2017.06.30. </p>
+   </div>
   </div>
 </section>
 {{-- <section id="testimonials">
