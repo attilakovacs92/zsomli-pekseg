@@ -43,4 +43,7 @@
 	  <!-- Controls --> 
 	  <a class="left carousel-control" href="#fullSpoonCarousel" data-slide="prev"> <span class="icon-prev"></span> </a> <a class="right carousel-control" href="#fullSpoonCarousel" data-slide="next"> <span class="icon-next"></span> </a> 
 	</header>
+	<section>
+	    <img src="/img/palyazat.jpg" alt="">
+	</section>
 @stop
